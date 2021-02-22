@@ -44,3 +44,42 @@ body{
     border: 3px solid white;
     border-radius: 5px;
 }
+.photo:hover .add-button-friend {
+    background-color: rgb(0, 0, 0, 0);
+}
+.add-friend {
+    text-decoration: none;
+  }
+  
+  .wrapper img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .user-name {
+    margin: 0;
+    color: rgb(65, 65, 65);
+  }
+  
+  .personal-data {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid rgb(170, 170, 170);
+    width: calc(100% - 20px);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bio-info {
+    padding: 5px 10px;
+  }
+  
+  .material-icons {
+    font-size: 16px !important;
+  }
+  
+  .fa-user-alt {
+    padding-right: 5px;
+  }
+  
